@@ -13,6 +13,9 @@ namespace ClassRoomNet60
         DateTime SemesterStart ;
 
 
-        public ClassRoom ()
+        public ClassRoom()
+        {
+
+        }
     }
 }
