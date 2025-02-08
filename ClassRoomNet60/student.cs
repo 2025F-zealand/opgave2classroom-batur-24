@@ -6,21 +6,19 @@ using System.Threading.Tasks;
 
 namespace ClassRoomNet60
 {
-    internal class student
+    internal class Student
     {
-        public string Name { get; set; }
-        public int BirthMonth {  get; set; }
-        public int Birthday { get; set; }
+        public string Name { get; private set; }
+        public int BirthMonth { get; private set; }
+        public int BirthDay { get; private set; }
 
-        public student(string name, int birthmonth, int birthday) 
+        public Student(string Name, int BirthMonth, int BirthDay)
         {
-            Name = name;
-            BirthMonth = birthmonth;
-            Birthday = birthday;
-            
-
-
+            Name = Name;
+            BirthMonth = BirthMonth; 
+            BirthDay = BirthDay; 
+        
         }
+        
+    }
 }
-}
-
